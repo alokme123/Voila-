@@ -15,6 +15,7 @@
 		8CF301DB260E1CEC00A3B3FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF301D9260E1CEC00A3B3FD /* LaunchScreen.storyboard */; };
 		8CF301E6260E1CED00A3B3FD /* Voila_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF301E5260E1CED00A3B3FD /* Voila_Tests.swift */; };
 		8CF301F1260E1CED00A3B3FD /* Voila_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF301F0260E1CED00A3B3FD /* Voila_UITests.swift */; };
+		8CF30202260E517400A3B3FD /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF30201260E517400A3B3FD /* MyCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8CF301EC260E1CED00A3B3FD /* Voila!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voila!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF301F0260E1CED00A3B3FD /* Voila_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voila_UITests.swift; sourceTree = "<group>"; };
 		8CF301F2260E1CED00A3B3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF30201260E517400A3B3FD /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8CF301D7260E1CEC00A3B3FD /* Assets.xcassets */,
 				8CF301D9260E1CEC00A3B3FD /* LaunchScreen.storyboard */,
 				8CF301DC260E1CEC00A3B3FD /* Info.plist */,
+				8CF30201260E517400A3B3FD /* MyCustomCell.swift */,
 			);
 			path = "Voila!";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				8CF301D3260E1CE800A3B3FD /* ViewController.swift in Sources */,
 				8CF301CF260E1CE800A3B3FD /* AppDelegate.swift in Sources */,
+				8CF30202260E517400A3B3FD /* MyCustomCell.swift in Sources */,
 				8CF301D1260E1CE800A3B3FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
