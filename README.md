@@ -17,5 +17,7 @@ Contains a Custom Cell TableView with Recipe Details, and when clicked you go to
 * Swift 5.3
 
 ### Screenshot
-<img src="https://github.com/alokme123/Voila-/raw/main/assets/screen1.png" width="30%">
-<img src="https://github.com/alokme123/Voila-/raw/main/assets/screen2.png" width="30%">
+<p float="left">
+  <img src="https://github.com/alokme123/Voila-/raw/main/assets/screen1.png" width="30%">
+  <img src="https://github.com/alokme123/Voila-/raw/main/assets/screen2.png" width="30%">
+</p>
