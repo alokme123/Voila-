@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0024182610CB5800934526 /* resultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0024172610CB5800934526 /* resultsController.swift */; };
 		8CF301CF260E1CE800A3B3FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF301CE260E1CE800A3B3FD /* AppDelegate.swift */; };
 		8CF301D1260E1CE800A3B3FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF301D0260E1CE800A3B3FD /* SceneDelegate.swift */; };
 		8CF301D3260E1CE800A3B3FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF301D2260E1CE800A3B3FD /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C0024172610CB5800934526 /* resultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsController.swift; sourceTree = "<group>"; };
 		8CF301CB260E1CE800A3B3FD /* Voila!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voila!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF301CE260E1CE800A3B3FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CF301D0260E1CE800A3B3FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				8CF301DC260E1CEC00A3B3FD /* Info.plist */,
 				8CF30201260E517400A3B3FD /* MyCustomCell.swift */,
 				8CF30206260E7FD600A3B3FD /* recipeWebViewViewController.swift */,
+				8C0024172610CB5800934526 /* resultsController.swift */,
 			);
 			path = "Voila!";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C0024182610CB5800934526 /* resultsController.swift in Sources */,
 				8CF301D3260E1CE800A3B3FD /* ViewController.swift in Sources */,
 				8CF301CF260E1CE800A3B3FD /* AppDelegate.swift in Sources */,
 				8CF30202260E517400A3B3FD /* MyCustomCell.swift in Sources */,
