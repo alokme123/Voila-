@@ -7,6 +7,7 @@
 
 import UIKit
 
+//TableView Data
 var recipeDict = [
     "dosa":["South Indian Dosa","That simple dish you'll be a star at!","https://www.indianhealthyrecipes.com/dosa-recipe-dosa-batter/","4.5"],
     "burger":["Mountain Burger","The best burger!","https://natashaskitchen.com/perfect-burger-recipe/","3.9"],
@@ -20,7 +21,7 @@ class ViewController: UIViewController {
     
     var recipe:String = "dosa" // Global Variable to Send Data
 
-    //TableView Data
+    //Copy of DataDict
     var currentDict = recipeDict
     
     //UI Elements
@@ -32,6 +33,7 @@ class ViewController: UIViewController {
         //Adding SearchBar
         let searchController = UISearchController(searchResultsController: nil)
         searchController.searchResultsUpdater = self
+        searchController.obscuresBackgroundDuringPresentation = false
         navigationItem.searchController = searchController
         
         //Initializing TableView
@@ -47,13 +49,19 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource, UISearchRes
     //SearchResultsController
     func updateSearchResults(for searchController: UISearchController) {
         let searchText = searchController.searchBar.text!
-        for (item, itemDetails) in recipeDict{
-            if(itemDetails[0].contains(searchText)){
-                currentDict = [item: itemDetails]
-                DispatchQueue.main.async {
-                    self.recipeView.reloadData()
+        if(searchText.isEmpty){
+            print("Empty")
+            currentDict = recipeDict
+        }
+        else{
+            for (item, itemDetails) in recipeDict{
+                if(itemDetails[0].contains(searchText)){
+                    currentDict = [item: itemDetails]
                 }
             }
+        }
+        DispatchQueue.main.async {
+            self.recipeView.reloadData()
         }
     }
     
@@ -67,7 +75,7 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource, UISearchRes
     //When Row Selected
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        recipe = [String](recipeDict.keys)[indexPath.row]//Finding Selected Recipe
+        recipe = [String](currentDict.keys)[indexPath.row]//Finding Selected Recipe
         performSegue(withIdentifier: "homeToWeb",sender:nil)//Performing Segue
     }
     
