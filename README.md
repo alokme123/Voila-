@@ -2,7 +2,7 @@
 A simple place for all your recipes
 
 ### What does it do?
-Contains a Custom Cell TableView with Recipe Details, and when clicked you go to a WebView with the URL of that RecipeUO
+Contains a Custom Cell TableView with Recipe Details, and when clicked you go to a WebView with the URL of that Recipe
 
 ### What did I learn?
 
