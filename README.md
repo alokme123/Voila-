@@ -2,7 +2,7 @@
 A simple place for all your recipes
 
 ### What does it do?
-Contains a Custom Cell TableView with Recipe Details, and when clicked you go to a WebView with the URL of that Recipe
+Contains a Custom Cell TableView with Recipe Details, and when clicked you go to a WebView with the URL of that RecipeUO
 
 ### What did I learn?
 
@@ -10,6 +10,10 @@ Contains a Custom Cell TableView with Recipe Details, and when clicked you go to
 * To create and use a WKWebView using WebKit
 * To connecy ViewControllers using Segues
 * To pass data between ViewControllers using Segues
+* To work with SearchController in NavigationBar
+
+### UPDATE v1.2
+* Added SearchBar Feature
 
 ### Built With
 
