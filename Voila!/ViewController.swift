@@ -65,7 +65,7 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource, UISearchRes
         }
     }
     
-    //Adding Recipe Data to Segue Check
+    //Adding Recipe Data to Segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let chosenRecipe = recipeDict[recipe]
         let destinationVC = segue.destination as! recipeWebViewViewController
