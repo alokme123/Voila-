@@ -73,6 +73,7 @@
                                                         <constraint firstItem="7tL-lW-0aG" firstAttribute="leading" secondItem="IbQ-ez-Anm" secondAttribute="trailing" constant="4" id="bfM-FA-HYt"/>
                                                         <constraint firstAttribute="bottom" secondItem="SHn-Kp-fNS" secondAttribute="bottom" id="d9W-Qw-B8z"/>
                                                         <constraint firstItem="eQg-4u-h0V" firstAttribute="top" secondItem="szw-wC-rRc" secondAttribute="bottom" constant="7" id="gmh-oW-k21"/>
+                                                        <constraint firstAttribute="trailing" secondItem="eQg-4u-h0V" secondAttribute="trailing" constant="8.5" id="odf-fd-y7v"/>
                                                         <constraint firstItem="IbQ-ez-Anm" firstAttribute="top" secondItem="7tL-lW-0aG" secondAttribute="top" id="p0q-yd-tYi"/>
                                                     </constraints>
                                                 </view>
